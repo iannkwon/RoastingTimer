@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="test.com.loastingtimer.SelectActivity">
+
+
+
+
+        <TextView
+            android:id="@+id/text_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로스팅 목록"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#696969"
+            android:background="#FFFACD"/>
+
+    <ListView
+        android:id="@+id/list_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFACD"
+        android:padding="5dp">
+
+    </ListView>
+
+    <!--<Button-->
+        <!--android:onClick="onClick"-->
+        <!--android:id="@+id/btn_home"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="150dp"-->
+        <!--android:text="뒤  로"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:background="#A9A9A9"-->
+        <!--android:textColor="#ffffff"/>-->
+
+</LinearLayout>
