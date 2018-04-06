@@ -30,6 +30,7 @@
             android:name=".TimerActivity"
             android:label="@string/title_activity_timer"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".SelectActivity" />
 
         <activity android:name=".UpdateActivity"

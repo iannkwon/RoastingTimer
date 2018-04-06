@@ -139,12 +139,6 @@ public class TimerActivity extends AppCompatActivity {
         return easy_outTime;
     }
 
-
-    void show()
-    {
-
-
-    }
     @Override
     protected void onDestroy() {
         super.onDestroy();
